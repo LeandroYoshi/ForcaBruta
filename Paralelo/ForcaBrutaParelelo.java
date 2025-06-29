@@ -3,7 +3,7 @@ package Paralelo;
 import java.util.Random;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-public class ForçaBrutaParelelo {
+public class ForcaBrutaParelelo {
 
     private static final char[] caracteres = "0123456789".toCharArray(); //Caracteres utilizados para quebrar a senha
     private static final int num_threads = 4; //Número de threads
